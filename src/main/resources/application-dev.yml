@@ -22,3 +22,14 @@ spring:
 
 server:
   port: 8085
+
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
+
+    level:
+         org.springframework.security: TRACE
