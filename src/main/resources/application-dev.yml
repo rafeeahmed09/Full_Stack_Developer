@@ -2,7 +2,7 @@ spring:
   application:
     name: Backend_Developer
   datasource:
-    url: jdbc:mysql://localhost:3306/AuthenticationS_db?createDatabaseIfNotExist=true
+    url: JDBC:mysql://localhost:3306/AuthenticationS_db?createDatabaseIfNotExist=true
     username: root
     password: 1234567890
     driver-class-name: com.mysql.cj.jdbc.Driver
